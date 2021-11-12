@@ -1,12 +1,11 @@
 @media screen and (min-width: 1025px) and (max-width: 1340px) {
-
   /* common */
   .inner {
     width: 95%;
   }
 
   /* header */
-  header nav .gnb>li>a {
+  header nav .gnb > li > a {
     font-size: 20px;
   }
 
@@ -125,11 +124,9 @@
   footer .footNav ul li a {
     font-size: 14px;
   }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
   /*common*/
   body {
     overflow-x: hidden;
@@ -188,13 +185,13 @@
     width: 100%;
   }
 
-  header nav .gnb>li {
+  header nav .gnb > li {
     width: 14.2%;
     padding: 15px 0;
     margin-right: 0;
   }
 
-  header nav .gnb>li:last-child {
+  header nav .gnb > li:last-child {
     margin-right: 0;
   }
 
@@ -664,11 +661,11 @@
     display: none;
   }
 
-  #sub_counseling .selArea div input[type="radio"]+label:before {
+  #sub_counseling .selArea div input[type="radio"] + label:before {
     top: 15px;
   }
 
-  #sub_counseling .selArea div input[type="radio"]:checked+label:after {
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
     top: 18px;
   }
 
@@ -737,7 +734,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 960px) {
-
   /* common */
   h4 {
     margin-bottom: 30px;
@@ -789,7 +785,6 @@
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-
   /*common*/
   body {
     font-size: 15px;
@@ -930,7 +925,7 @@
     color: #fff;
   }
 
-  header nav .gnb>li {
+  header nav .gnb > li {
     position: relative;
     float: none;
     width: 100%;
@@ -941,21 +936,21 @@
     box-sizing: border-box;
   }
 
-  header nav .gnb>li.hasSub:after {
-    content: '\e874';
+  header nav .gnb > li.hasSub:after {
+    content: "\e874";
     position: absolute;
     top: 15px;
     right: 15px;
     display: inline-block;
     width: 20px;
     height: 20px;
-    font-family: 'Linearicons-Free';
+    font-family: "Linearicons-Free";
     font-size: 18px;
     font-weight: 600;
     color: #f4f4f4;
   }
 
-  header nav .gnb>li>a {
+  header nav .gnb > li > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -988,7 +983,7 @@
     line-height: 15px;
   }
 
-  header nav .sub>li>a {
+  header nav .sub > li > a {
     font-size: 15px;
     font-weight: 400;
     color: #f4f4f4;
@@ -1530,11 +1525,11 @@
     display: none;
   }
 
-  #sub_counseling .selArea div input[type="radio"]+label:before {
+  #sub_counseling .selArea div input[type="radio"] + label:before {
     top: 15px;
   }
 
-  #sub_counseling .selArea div input[type="radio"]:checked+label:after {
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
     top: 18px;
   }
 
@@ -1626,7 +1621,6 @@
 }
 
 @media screen and (max-width: 640px) {
-
   /*common*/
   body {
     font-size: 14px;
@@ -1799,7 +1793,7 @@
     color: #fff;
   }
 
-  header nav .gnb>li {
+  header nav .gnb > li {
     position: relative;
     float: none;
     width: 100%;
@@ -1810,21 +1804,21 @@
     box-sizing: border-box;
   }
 
-  header nav .gnb>li.hasSub:after {
-    content: '\e874';
+  header nav .gnb > li.hasSub:after {
+    content: "\e874";
     position: absolute;
     top: 15px;
     right: 15px;
     display: inline-block;
     width: 20px;
     height: 20px;
-    font-family: 'Linearicons-Free';
+    font-family: "Linearicons-Free";
     font-size: 18px;
     font-weight: 600;
     color: #f4f4f4;
   }
 
-  header nav .gnb>li>a {
+  header nav .gnb > li > a {
     display: block;
     width: 100%;
     height: 100%;
@@ -1857,7 +1851,7 @@
     line-height: 15px;
   }
 
-  header nav .sub>li>a {
+  header nav .sub > li > a {
     font-size: 15px;
     font-weight: 400;
     color: #f4f4f4;
@@ -2076,17 +2070,17 @@
     padding: 25px;
   }
 
-  #counseling .selArea div input[type="radio"]+label {
+  #counseling .selArea div input[type="radio"] + label {
     padding-left: 25px;
   }
 
-  #counseling .selArea div input[type="radio"]+label:before {
+  #counseling .selArea div input[type="radio"] + label:before {
     top: 9px;
     width: 12px;
     height: 12px;
   }
 
-  #counseling .selArea div input[type="radio"]:checked+label:after {
+  #counseling .selArea div input[type="radio"]:checked + label:after {
     top: 13px;
     left: 4px;
     width: 8px;
@@ -2642,7 +2636,7 @@
     word-break: keep-all;
   }
 
-  c #sub_security .secuDetail li {
+  #sub_security .secuDetail li {
     width: calc((100% - 30px) / 2);
     padding: 20px;
     margin: 0 20px 20px 0;
@@ -2752,7 +2746,14 @@
     margin-bottom: 10px;
   }
 
-  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt ul li strong {
+  #sub_website
+    .nauPortfolio
+    .swiper-wrapper
+    .swiper-slide
+    .slideTxt
+    ul
+    li
+    strong {
     font-size: 18px;
   }
 
@@ -2894,20 +2895,20 @@
   }
 
   #sub_counseling .selArea div:after {
-    content: '';
+    content: "";
   }
 
   #sub_counseling .selArea div:last-child:after {
     display: none;
   }
 
-  #sub_counseling .selArea div input[type="radio"]+label:before {
+  #sub_counseling .selArea div input[type="radio"] + label:before {
     top: 14px;
     width: 12px;
     height: 12px;
   }
 
-  #sub_counseling .selArea div input[type="radio"]:checked+label:after {
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
     top: 17px;
     left: 3px;
     width: 8px;
@@ -2999,7 +3000,7 @@
     top: 50%;
     right: -12.5px;
     transform: translateY(-50%);
-    content: '';
+    content: "";
     display: block;
     width: 1px;
     height: 15px;
@@ -3076,7 +3077,6 @@
 }
 
 @media screen and (max-width: 300px) {
-
   /* common */
   section {
     margin-bottom: 60px;

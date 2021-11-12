@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font: 16px 'Noto Sans KR', 'Rajdhani', sans-serif;
+  font: 16px "Noto Sans KR", "Rajdhani", sans-serif;
   font-weight: 400;
   letter-spacing: -0.03em;
   color: #585858;
@@ -189,21 +189,21 @@ header nav .gnb {
   width: 100%;
 }
 
-header nav .gnb>li {
+header nav .gnb > li {
   position: relative;
   float: left;
   width: auto;
   padding: 17px 0 0;
   margin-right: 50px;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   box-sizing: border-box;
 }
 
-header nav .gnb>li:last-child {
+header nav .gnb > li:last-child {
   margin-right: 0;
 }
 
-header nav .gnb>li>a {
+header nav .gnb > li > a {
   display: block;
   width: 100%;
   padding-bottom: 30px;
@@ -213,8 +213,8 @@ header nav .gnb>li>a {
   color: rgba(255, 255, 255, 0.8);
 }
 
-header nav .gnb>li:hover>a,
-header nav .gnb>li:focus>a {
+header nav .gnb > li:hover > a,
+header nav .gnb > li:focus > a {
   color: #fff;
 }
 
@@ -236,7 +236,7 @@ header nav .sub li {
   line-height: 40px;
 }
 
-header nav .sub>li>a {
+header nav .sub > li > a {
   position: relative;
   display: block;
   font-size: 20px;
@@ -244,8 +244,8 @@ header nav .sub>li>a {
   color: #555;
 }
 
-header nav .sub>li>a:hover,
-header nav .sub>li>a:focus {
+header nav .sub > li > a:hover,
+header nav .sub > li > a:focus {
   text-decoration: underline;
   color: #222;
 }
@@ -314,8 +314,8 @@ header.on nav .sub li a {
   color: #e1e1e1;
 }
 
-header.on nav .sub>li>a:hover,
-header.on nav .sub>li>a:focus {
+header.on nav .sub > li > a:hover,
+header.on nav .sub > li > a:focus {
   font-weight: 400;
   color: #fff;
 }
@@ -359,7 +359,7 @@ header.on nav .sub>li>a:focus {
 }
 
 #mainVisual .txtBox p span {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 500;
   font-size: 26px;
 }
@@ -414,7 +414,7 @@ header.on nav .sub>li>a:focus {
 }
 
 #servicing h4 span {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 36px;
   font-weight: 600;
 }
@@ -478,7 +478,7 @@ header.on nav .sub>li>a:focus {
 
 /*solution*/
 #solution h5 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 27px;
   font-weight: 500;
 }
@@ -577,15 +577,15 @@ header.on nav .sub>li>a:focus {
   overflow: hidden;
 }
 
-#counseling .selArea div input[type="radio"]+label {
+#counseling .selArea div input[type="radio"] + label {
   position: relative;
   display: inline-block;
   padding-left: 30px;
   cursor: pointer;
 }
 
-#counseling .selArea div input[type="radio"]+label:before {
-  content: '';
+#counseling .selArea div input[type="radio"] + label:before {
+  content: "";
   position: absolute;
   top: 11px;
   left: 0;
@@ -595,8 +595,8 @@ header.on nav .sub>li>a:focus {
   border-radius: 100%;
 }
 
-#counseling .selArea div input[type="radio"]:checked+label:after {
-  content: '';
+#counseling .selArea div input[type="radio"]:checked + label:after {
+  content: "";
   position: absolute;
   top: 15px;
   left: 4px;
@@ -627,7 +627,7 @@ header.on nav .sub>li>a:focus {
 }
 
 #counseling .clientCompany .cliList img {
-  margin: 0 10px -10px 0;
+  margin: 10px 10px -10px 0;
 }
 
 #counseling .clientCompany .cliList input[type="text"] {
@@ -656,7 +656,7 @@ header.on nav .sub>li>a:focus {
   border: 1px solid #e1e1e1;
   outline: 0;
   background: #fff;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 16px;
   box-sizing: border-box;
 }
@@ -741,7 +741,7 @@ header.on nav .sub>li>a:focus {
 #partner ul li h5 {
   padding-top: 60px;
   text-align: center;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 24px;
   font-weight: 600;
 }
@@ -776,7 +776,7 @@ header.on nav .sub>li>a:focus {
 }
 
 #noteArea .notice .titBox:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   display: block;
@@ -864,27 +864,27 @@ header.on nav .sub>li>a:focus {
 }
 
 #noteArea .faq ul li.faq01 a {
-  background-image: url(../_img/ico_faq_01.png)
+  background-image: url(../_img/ico_faq_01.png);
 }
 
 #noteArea .faq ul li.faq02 a {
-  background-image: url(../_img/ico_faq_02.png)
+  background-image: url(../_img/ico_faq_02.png);
 }
 
 #noteArea .faq ul li.faq03 a {
-  background-image: url(../_img/ico_faq_03.png)
+  background-image: url(../_img/ico_faq_03.png);
 }
 
 #noteArea .faq ul li.faq04 a {
-  background-image: url(../_img/ico_faq_04.png)
+  background-image: url(../_img/ico_faq_04.png);
 }
 
 #noteArea .faq ul li.faq05 a {
-  background-image: url(../_img/ico_faq_05.png)
+  background-image: url(../_img/ico_faq_05.png);
 }
 
 #noteArea .faq ul li.faq06 a {
-  background-image: url(../_img/ico_faq_06.png)
+  background-image: url(../_img/ico_faq_06.png);
 }
 
 #noteArea .faq ul li a span {
